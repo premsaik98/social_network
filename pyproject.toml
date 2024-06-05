@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "socialapp"
+version = "0.1.0"
+description = ""
+authors = ["Premsai Kududula <Premsai.Kududula@anywhere.re>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+
+python = ">=3.8"
+djangorestframework = "^3.15.1"
+django-model-utils = "^4.5.1"
+django = "4.2.13"
+django-filter = "^24.2"
+djangorestframework-simplejwt = "^5.3.1"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
