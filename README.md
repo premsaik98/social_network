@@ -33,6 +33,9 @@
      python manage.py runserver
      ```
 
+
+**NOTE**: Postman collection and environment file are uploaded in the same repository.
+
 ## Endpoints
 
 - `/api/signup/` - User signup
